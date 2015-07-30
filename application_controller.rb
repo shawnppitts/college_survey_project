@@ -1,5 +1,6 @@
 require 'bundler'
 Bundler.require
+require_relative "./models/model.rb"
 
 class ApplicationController < Sinatra::Base
 
@@ -11,12 +12,17 @@ class ApplicationController < Sinatra::Base
     erb :test
   end 
   
-  get '/results' do
+ post '/results' do
+   @decision = college_choice(params.values)
+   puts params
+   
     erb :results
+   
   end 
   
   get '/college_list' do
     erb :college_list
   end 
+  
 
 end

@@ -9,41 +9,48 @@
    <p>Choose the answer that best fits your personality and preference below.</p>
    
    
-<h3>Do you like being around small groups or large crowds?</h3>
-     <form>
-    <input type="radio" name="school_size" value="small_groups" checked>Small groups
+<h3>Would you like to attend a 4 year college or 2 year college?</h3>
+     <form action='/results' method="POST">
+    <input type="radio" name="duration" value="four_year" checked>4 year
             <br><br>
-    <input type="radio" name="school_size" value="large_crowds">Large Crowds
+    <input type="radio" name="duration" value="two_year">2 year
 
    
    
-<h3>Do you like being in an urban or rural environent?</h3>
+<h3>Would you like to attend a big school() or a smaller sized school ()?</h3>
      
-    <input type="radio" name="environment" value="rural" checked>Rural
+    <input type="radio" name="environment" value="big" checked>Big
             <br><br>
-    <input type="radio" name="environment" value="urban">Urban
+    <input type="radio" name="environment" value="small">Small
 
    
-<h3>Do you want to go to a 4 year or 2 year school?</h3>
+<h3>Which of the words below describe your personality?</h3>
      
-     <input type="radio" name="year" value="4_year" checked>4 year
+     <input type="radio" name="personality" value="artsy" checked>artsy
           <br><br>
-     <input type="radio" name="year" value="2_year">2 year
+     <input type="radio" name="personality" value="socialite">socialite
+       <br><br>
+     <input type="radio" name="personality" value="nerdy" checked>nerdy
+       <br><br>
+     <input type="radio" name="personality" value="jock" checked>Jock
+
+
        
-   
-<h3>Do  you like a warm or cold climate?</h3>
-         
-      <input type="radio" name="climate" value="cold" checked>Cold
-          <br><br>
-      <input type="radio" name="climate" value="warm">Warm
-
-   
+       
    
 <h3>Would you like your school to have a religious affiliation?</h3>
          
-      <input type="radio" name="religion" value="yes" checked>Yes
+      <input type="radio" name="religion" value="yes" checked>yes
           <br><br>
-      <input type="radio" name="religion" value="no">No
+      <input type="radio" name="religion" value="no">no
+
+   
+   
+<h3>Would you like your school to have greek life?</h3>
+         
+      <input type="radio" name="greek" value="yes" checked>Yes
+          <br><br>
+      <input type="radio" name="greek" value="no">No
            <br><br><br><br>
        <input type="submit" value="Find College!">
 </form>
