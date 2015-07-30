@@ -7,15 +7,15 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
   
-  get '/test' do
-    erb :test
-  end 
+  get '/test.erb' do
+     erb :test
+  end
   
   get '/results' do
     erb :results
   end 
   
-  get '/college_list' do
+  get '/college_list.erb' do
     erb :college_list
   end 
 

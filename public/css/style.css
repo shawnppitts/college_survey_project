@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=Abel);
+
+h1{
+  font-family:Abel;
+  text-align:center;
+  font-size: 60px;
+}
+
+p{
+  font-family:Abel;
+  text-align:center;
+  font-size: 40px;
+}
+
+.homepagebuttons {
+  position:relative;
+  text-align: center;
+}
+/* .ghost-button {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color:#fff;
+  border: 1px solid #fff;
+  text-align:center;
+  outline:none;
+  text-decoration:none;
+}
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #fff;
+  color: #000;
+}
+ */
+body{
+  background: url("http://assets3.thrillist.com/v1/image/1302844/size/tl-no_parallax_cs_2x/the-25-most-beautiful-college-campuses-in-america") no-repeat center center fixed;
+  height: 100%;
+  margin:0%;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
