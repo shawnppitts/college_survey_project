@@ -8,9 +8,9 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
   
-  get '/test' do
-    erb :test
-  end 
+  get '/test.erb' do
+     erb :test
+  end
   
  post '/results' do
    @decision = college_choice(params.values)
@@ -20,7 +20,7 @@ class ApplicationController < Sinatra::Base
    
   end 
   
-  get '/college_list' do
+  get '/college_list.erb' do
     erb :college_list
   end 
   
