@@ -58,6 +58,10 @@ def college_choice(choices)
     rank[2]+=1
     rank[3]+=1
     
+    if choices[5]=="yes"
+      rank[0]+=.5
+      
+    
     
     
   end 
