@@ -1,18 +1,28 @@
+
 <!DOCTYPE html>
 <html>
  <head>
   <meta charset="UTF-8">
   <title>Explore</title>
-  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  <link rel="stylesheet" href="./css/style.css" type="text/css">
  </head>
  <body>
    <h1>Welcome to Explore</h1>
    <p>Explore Your College Choices</p>
    <br>
-   <button type="button">EMBARK ON YOUR COLLEGE SEARCH</button>
+  <div class = "homepagebuttons">
+   <form>
+<!--      <a class="ghost-button" href="#">EMBARK ON YOUR COLLEGE SEARCH</a> -->
+     <input type="button" value="EMBARK ON YOUR COLLEGE SEARCH" 
+     onclick = "window.location.href='/test.erb'" class="btn btn-primary">
+     
+   </form>
    <br> 
    <br>
-   <button type="button">Go to College Information</button>
-  
+   <form>
+     <input type="button" value="Go to College Information"
+     onclick = "window.location.href='college_list.erb'" class="btn btn-primary">
+   </form>
+  </div>
  </body>
 </html>
