@@ -24,5 +24,6 @@ class ApplicationController < Sinatra::Base
     erb :college_list
   end 
   
+  
 
 end

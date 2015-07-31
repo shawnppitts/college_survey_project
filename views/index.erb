@@ -1,28 +1,28 @@
-
+<!--index is the home page-->
 <!DOCTYPE html>
 <html>
  <head>
   <meta charset="UTF-8">
   <title>Explore</title>
-  <link rel="stylesheet" href="./css/style.css" type="text/css">
+  <link rel="stylesheet" href="./css/style.css" type="text/css"> <!--link to our css style page-->
  </head>
- <body>
-   <h1>Welcome to Explore</h1>
-   <p>Explore Your College Choices</p>
+ <body class="index-bg">
+<!--  <html class="index-bg">  <!--created index class for index page in order to format background separately --> -->
+   <h1>Welcome to Explore</h1> <!--website title is explore-->
+     <p>Explore Your College Choices</p>
    <br>
-  <div class = "homepagebuttons">
+   <div class = "homepagebuttons"> <!--creating a class for the buttons on homepage, helpful for styling them-->
    <form>
-<!--      <a class="ghost-button" href="#">EMBARK ON YOUR COLLEGE SEARCH</a> -->
-     <input type="button" value="EMBARK ON YOUR COLLEGE SEARCH" 
-     onclick = "window.location.href='/test.erb'" class="btn btn-primary">
-     
+   <!--<a class="ghost-button" href="#">EMBARK ON YOUR COLLEGE SEARCH</a> -->
+     <input class="ghost-button" type="button" value="EMBARK ON YOUR COLLEGE SEARCH"  
+      onclick = "window.location.href='/test.erb'" class="btn btn-primary">  <!--button brings user to quiz--> 
    </form>
    <br> 
-   <br>
    <form>
-     <input type="button" value="Go to College Information"
-     onclick = "window.location.href='college_list.erb'" class="btn btn-primary">
+     <input class="ghost-button" type="button" value="Go to College Information"
+      onclick = "window.location.href='college_list.erb'" class="btn btn-primary"> <!--button brings user to college info page--> 
    </form>
   </div>
+   <footer>Programmed and Designed by <br> Shawn Pitts,Trish Edou, Chloe Conway</footer>
  </body>
 </html>

@@ -1,22 +1,64 @@
-@import url(http://fonts.googleapis.com/css?family=Abel);
+@import url(http://fonts.googleapis.com/css?family=Abel); /* font for all writings */
+@import url(http://fonts.googleapis.com/css?family=Pontano+Sans);
 
-h1{
+
+h1{                      /* styling of main header text on index page */
   font-family:Abel;
   text-align:center;
   font-size: 60px;
-}
+  }
 
-p{
+p{                       /* styling of paragraph text on index page */
   font-family:Abel;
   text-align:center;
-  font-size: 40px;
-}
+  font-size: 28px;
+  }
 
-.homepagebuttons {
+.homepagebuttons {        /* styling of both buttons on index page */
   position:relative;
   text-align: center;
+  }
+
+.index-bg{                     /* styling background of index page with sunset picture */
+  background: url("http://assets3.thrillist.com/v1/image/1302844/size/tl-no_parallax_cs_2x/the-25-most-beautiful-college-campuses-in-america") no-repeat center center fixed;
+  height: 100%;
+  margin:0%;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  }
+footer{
+  color:white;
+  font-family:Pontano Sans;
+  font-weight: bold;
+  margin-top:16%;
+  text-align:center;
 }
-/* .ghost-button {
+
+.college_list-bg{            /* styling background of college_list page with blue sky campus picture */
+background: url("https://upload.wikimedia.org/wikipedia/commons/0/0a/MIET_Campus_at_Night.jpg")no-repeat center center fixed;
+  text-align :center;
+  height: 100%;
+  margin:0%;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  color: white;
+  }
+
+h3 {
+  font-size: 45px;
+}
+
+
+
+
+
+
+.ghost-button {
+  background:none;
   display: inline-block;
   width: 200px;
   padding: 8px;
@@ -31,9 +73,9 @@ p{
   background-color: #fff;
   color: #000;
 }
- */
+
 body{
-  background: url("http://assets3.thrillist.com/v1/image/1302844/size/tl-no_parallax_cs_2x/the-25-most-beautiful-college-campuses-in-america") no-repeat center center fixed;
+  background: url("http://assets3.thrillist.com/v1/image/1302844/size/tl-no_parallax_cs_2x/the-25-most-beautiful-college-campuses-in-america");
   height: 100%;
   margin:0%;
   -webkit-background-size:cover;
@@ -43,7 +85,10 @@ body{
 }
 
 .test-bg{ 
-background: url("http://dealbreaker.com/uploads/2014/12/colgateu.jpg") no-repeat center center fixed;
+background: url("http://i.imgur.com/zT5ty.jpg")no-repeat center center fixed;
+  font-family:Pontano Sans;
+  text-align:center;
+  color:white;
   height: 100%;
   margin:0%;
   -webkit-background-size:cover;
@@ -51,4 +96,19 @@ background: url("http://dealbreaker.com/uploads/2014/12/colgateu.jpg") no-repeat
   -o-background-size:cover;
   background-size:cover;
 }
+
+.results-bg{ 
+  background-image :url("http://www.ttuhub.net/wp-content/uploads/2014/10/seal-at-night-1440x900.jpg");
+  color:white;
+  font-family:Pontano Sans;
+  text-align:center;
+  height: 100%;
+  margin:0%;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover
+}
+
+
 

@@ -4,8 +4,15 @@
   <title>Results</title>
    <link rel="stylesheet" href="./css/style.css" type="text/css">
  </head>
- <body>
+ <body class="results-bg">
+   <div>
    <h1>Here are the colleges most compatable to your answers.</h1>
    <%= @decision %>
+     <form>
+       <br> <br> <br>
+   <input class="ghost-button" type="button" value="College Information"
+      onclick = "window.location.href='college_list.erb'" class="btn btn-primary"> <!--button brings user to index page--> 
+     </form>
+   </div>
  </body>
 </html>
