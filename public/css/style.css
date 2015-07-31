@@ -1,21 +1,53 @@
-@import url(http://fonts.googleapis.com/css?family=Abel);
+@import url(http://fonts.googleapis.com/css?family=Abel); /* font for all writings */
 
-h1{
+
+h1{                      /* styling of main header text on index page */
   font-family:Abel;
   text-align:center;
   font-size: 60px;
-}
+  }
 
-p{
+p{                       /* styling of paragraph text on index page */
   font-family:Abel;
   text-align:center;
   font-size: 40px;
-}
+  }
 
-.homepagebuttons {
+.homepagebuttons {        /* styling of both buttons on index page */
   position:relative;
   text-align: center;
+  }
+
+.index-bg{                     /* styling background of index page with sunset picture */
+  background: url("http://assets3.thrillist.com/v1/image/1302844/size/tl-no_parallax_cs_2x/the-25-most-beautiful-college-campuses-in-america") no-repeat center center fixed;
+  height: 100%;
+  margin:0%;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  }
+
+.college_list-bg{            /* styling background of college_list page with blue sky campus picture */
+background: url("http://ad009cdnb.archdaily.net/wp-content/uploads/2011/08/1313172146-1-rex-hammock.jpg") no-repeat center center fixed;
+  height: 100%;
+  margin:0%;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  }") no-repeat center center fixed;
+  height: 100%;
+  margin:0%;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
 }
+
+
+
+
 /* .ghost-button {
   display: inline-block;
   width: 200px;
@@ -32,12 +64,4 @@ p{
   color: #000;
 }
  */
-body{
-  background: url("http://assets3.thrillist.com/v1/image/1302844/size/tl-no_parallax_cs_2x/the-25-most-beautiful-college-campuses-in-america") no-repeat center center fixed;
-  height: 100%;
-  margin:0%;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
-}
+

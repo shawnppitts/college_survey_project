@@ -59,7 +59,7 @@ def college_choice(choices)
     rank[3]+=1
     
     if choices[5]=="yes"
-      rank[0]+=.5
+      rank[0]+=0.5
       
     
     
@@ -70,4 +70,5 @@ def college_choice(choices)
   return colleges[rank.index(rank.max)]
     
 end 
+end
 # puts college_choice(["four_year", "big", "nerdy", "no", "no"])

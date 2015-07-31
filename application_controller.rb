@@ -24,5 +24,8 @@ class ApplicationController < Sinatra::Base
     erb :college_list
   end 
   
+  get '/index.erb' do
+    erb :index
+  end
 
 end
