@@ -41,3 +41,14 @@ body{
   -o-background-size:cover;
   background-size:cover;
 }
+
+.test-bg{ 
+background: url("http://dealbreaker.com/uploads/2014/12/colgateu.jpg") no-repeat center center fixed;
+  height: 100%;
+  margin:0%;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
+
